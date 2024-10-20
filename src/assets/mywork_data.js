@@ -15,31 +15,31 @@ const mywork_data = [
     {
         w_no: 2,
         w_name: "Web design",
-        link: "", // Add actual link if needed
+        link: "https://vercel.live/link/simple-restaurant-landing-page.vercel.app?via=project-dashboard-alias-list&p=1&page=/",
         w_img: project2_img
     },
     {
         w_no: 3,
         w_name: "Web design",
-        link: "", // Add actual link if needed
+        link: "https://hang-up-man.netlify.app/",
         w_img: project3_img
     },
     {
         w_no: 4,
         w_name: "Web design",
-        link: "", // Fixed 'Link' to 'link'
+        link: "https://vercel.live/link/chat-gpt-4-mu.vercel.app?via=project-dashboard-alias-list&p=1&page=/",
         w_img: project4_img
     },
     {
         w_no: 5,
         w_name: "Web design",
-        link: "", // Add actual link if needed
+        link: "https://vercel.live/link/pharmaca.vercel.app?via=project-dashboard-alias-list&p=1&page=/",
         w_img: project5_img
     },
     {
         w_no: 6,
         w_name: "Web design",
-        link: "", // Add actual link if needed
+        link: "https://vercel.live/link/croshehaty.vercel.app?via=project-dashboard-alias-list&p=1&page=/",
         w_img: project6_img
     }
 ]
