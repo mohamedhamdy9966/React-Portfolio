@@ -7,23 +7,18 @@ const Services_Data = [
     {
         s_no:"02",
         s_name:"Mobile App design",
-        s_desc:"Web development is the process of building, programming..."
+        s_desc:"Mobile App development is the process of building, programming..."
     },
     {
         s_no:"03",
         s_name:"UI Design",
-        s_desc:"Web development is the process of building, programming..."
+        s_desc:"UI Design is the process of building, programming..."
     },
     {
         s_no:"04",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"05",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
-    },
+        s_name:"MERN Full-Stack Apps",
+        s_desc:"Full-stack Web development is the process of building, programming..."
+    }
 ]
  
 export default Services_Data;
