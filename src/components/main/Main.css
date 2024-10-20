@@ -72,7 +72,37 @@
     height: 400px;
 }
 
-@media(max-width:768px) {
+/* Responsive for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .main img {
+        margin-top: 130px;
+        width: 300px;
+    }
+
+    .main h1 {
+        font-size: 70px;
+        width: 80%;
+    }
+
+    .main p {
+        width: 60%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .main-action {
+        gap: 20px;
+        font-size: 22px;
+    }
+
+    .main-connect, .main-resume {
+        padding: 22px 40px;
+        border-radius: 45px;
+    }
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
     .main img {
         margin-top: 120px;
         width: 260px;
@@ -85,7 +115,7 @@
     }
 
     .main p {
-        width: 60%;
+        width: 70%;
         font-size: 18px;
         line-height: 32px;
         margin: 10px 0px;
@@ -111,5 +141,44 @@
     .main-img {
         height: 250px;
         width: 200px;
+    }
+}
+
+/* Responsive for very small mobile devices (max-width: 500px) */
+@media (max-width: 500px) {
+    .main img {
+        margin-top: 100px;
+        width: 200px;
+    }
+
+    .main h1 {
+        font-size: 36px;
+        width: 95%;
+    }
+
+    .main p {
+        width: 85%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .main-action {
+        font-size: 16px;
+        gap: 12px;
+    }
+
+    .main-connect {
+        padding: 15px 25px;
+        border-radius: 35px;
+    }
+
+    .main-resume {
+        padding: 15px 40px;
+        border-radius: 35px;
+    }
+
+    .main-img {
+        height: 150px;
+        width: 150px;
     }
 }
