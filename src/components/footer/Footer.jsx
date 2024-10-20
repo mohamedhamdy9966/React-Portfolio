@@ -1,5 +1,4 @@
 import "./Footer.css";
-// import footer_logo from "../../assets/footer_logo.svg";
 import user_icon from "../../assets/user_icon.svg";
 
 const Footer = () => {
@@ -7,7 +6,6 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          {/* <img src={footer_logo} alt="footer-logo" /> */}
           <p>
             I am a Front-end developer from, Egypt with 2 years of experience
           </p>

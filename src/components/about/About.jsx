@@ -1,6 +1,6 @@
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/me.jpg";
+import profile_img from "../../assets/vector3.webp";
 
 const About = () => {
   return (
@@ -35,7 +35,7 @@ const About = () => {
             </div>
             <div className="about-skill">
               <p>JavaScript</p>
-              <hr style={{ width: "60%" }} />{" "}
+              <hr style={{ width: "90%" }} />{" "}
             </div>
             <div className="about-skill">
               <p>Bootstrap</p>

@@ -7,35 +7,41 @@ import project6_img from '../assets/Screenshot 2024-10-16 020711.png';
 
 const mywork_data = [
     {
-        w_no:1,
-        w_name:"Web design",
-        w_img:project1_img
+        w_no: 1,
+        w_name: "Web design",
+        link: "https://advicelandingpage.netlify.app/",
+        w_img: project1_img
     },
     {
-        w_no:2,
-        w_name:"Web design",
-        w_img:project2_img
+        w_no: 2,
+        w_name: "Web design",
+        link: "", // Add actual link if needed
+        w_img: project2_img
     },
     {
-        w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_no: 3,
+        w_name: "Web design",
+        link: "", // Add actual link if needed
+        w_img: project3_img
     },
     {
-        w_no:4,
-        w_name:"Web design",
-        w_img:project4_img
+        w_no: 4,
+        w_name: "Web design",
+        link: "", // Fixed 'Link' to 'link'
+        w_img: project4_img
     },
     {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
+        w_no: 5,
+        w_name: "Web design",
+        link: "", // Add actual link if needed
+        w_img: project5_img
     },
     {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
-    },
+        w_no: 6,
+        w_name: "Web design",
+        link: "", // Add actual link if needed
+        w_img: project6_img
+    }
 ]
- 
+
 export default mywork_data;

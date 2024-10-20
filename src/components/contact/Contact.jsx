@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="contact-left">
           <h3>let&apos;s talk</h3>
           <p>
-            iam currently available to take on new projects , so feel free to
+            I am currently available to take on new projects, so feel free to
             contact me
           </p>
           <div className="contact-details">
@@ -56,17 +56,21 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <form className="contact-right" onSubmit={onSubmit}>
-          <label htmlFor="">Your Name</label>
-          <input type="text" placeholder="Enter your name" name="name" />
-          <label htmlFor="">Your Email</label>
-          <input type="email" placeholder="Enter Your Email" name="email" />
-          <label htmlFor="">Write Your message here</label>
+        <form className="contact-right" onSubmit={onSubmit} id="contact_hamdy">
+          <label htmlFor="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" name="name" />
+          
+          <label htmlFor="email">Your Email</label>
+          <input type="email" id="email" placeholder="Enter Your Email" name="email" />
+          
+          <label htmlFor="message">Write Your Message Here</label>
           <textarea
+            id="message"
             name="message"
             rows="8"
             placeholder="Enter Your Message"
           ></textarea>
+          
           <button type="submit" className="contact-submit">
             Submit Now
           </button>
