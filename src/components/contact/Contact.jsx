@@ -3,6 +3,8 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
+import { toast, ToastContainer  } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
 
@@ -25,12 +27,15 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert(res.message);
+      toast.success("Thank you! Your message has been successfully sent. I'll get back to you soon.");
+    } else {
+      toast.error("Oops! Something went wrong. Please try again.");
     }
   };
 
   return (
     <div className="contact" id="contact">
+      <ToastContainer/>
       <div className="contact-title">
         <h2>Get in touch</h2>
         <img src={theme_pattern} alt="theme-pattern" />

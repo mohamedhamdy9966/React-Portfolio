@@ -128,6 +128,7 @@
     .contact-section {
         gap: 6vw;
         flex-direction: column;
+        align-items: center;
     }
 
     .contact-left h3 {
@@ -162,7 +163,7 @@
     }
 
     .contact-left p {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     .contact-right input,
@@ -200,6 +201,7 @@
     .contact-right textarea {
         font-size: 3.5vw;
         padding: 2vw;
+        border-radius: 20px;
     }
 
     .contact-submit {
