@@ -7,7 +7,7 @@ const Main = () => {
     <div className="main" id="home">
       <img src={profile_img} alt="profile-img" className="main-img"/>
       <h1>
-        Iam <span>Mohamed Hamdy</span>, Front-End Developer based in Egypt
+        I am <span>Mohamed Hamdy</span>, Front-End Developer based in Egypt
       </h1>
       <p>Iam Front-end Developer based in Egypt with 2 years experience</p>
       <div className="main-action">
