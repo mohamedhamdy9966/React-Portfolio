@@ -12,7 +12,7 @@ const Main = () => {
       <p>Iam Front-end Developer based in Egypt with 2 years experience</p>
       <div className="main-action">
         <div className="main-connect"><AnchorLink className="anchor" offset={50} href="#contact">Connect with Me</AnchorLink></div>
-        <div className="main-resume"><a href="public/Mohamed-Hamdy-Front-End-Developer-Resume.pdf" className="resume-link">My Resume</a></div>
+        <div className="main-resume"><a href="/Mohamed-Hamdy-Front-End-Developer-Resume.pdf" className="resume-link">My Resume</a></div>
       </div>
     </div>
   );
