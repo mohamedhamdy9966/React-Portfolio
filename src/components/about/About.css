@@ -26,6 +26,33 @@
     max-width: 100%; /* Ensures the image is responsive */
 }
 
+#html {
+    width: 95%;
+}
+
+#react {
+    width: 70% ;
+}
+
+#javascript {
+    width: 75% ;
+}
+
+#typescript {
+    width: 70% ;
+}
+
+#next{
+    width: 55% ;
+}
+
+#bootstrap {
+    width: 80% ;
+}
+
+#tailwind {
+    width: 70% ;
+}
 .about-sections {
     display: flex;
     gap: 5vw; /* Responsive gap */
@@ -194,6 +221,64 @@
     .about-achievement p {
         text-align: center;
         font-size: 3vw;
+    }
+
+    #html {
+        width: 95%;
+    }
+    
+    #react {
+        width: 70% ;
+    }
+    
+    #javascript {
+        width: 75% ;
+    }
+    
+    #typescript {
+        width: 70% ;
+    }
+    
+    #next{
+        width: 55% ;
+    }
+    
+    #bootstrap {
+        width: 80% ;
+    }
+    
+    #tailwind {
+        width: 70% ;
+    }
+}
+
+@media (max-width: 640px) {
+    #html {
+        width: 95%;
+    }
+    
+    #react {
+        width: 55% ;
+    }
+    
+    #javascript {
+        width: 75% ;
+    }
+    
+    #typescript {
+        width: 50% ;
+    }
+    
+    #next{
+        width: 45% ;
+    }
+    
+    #bootstrap {
+        width: 80% ;
+    }
+    
+    #tailwind {
+        width: 50% ;
     }
 }
 

@@ -206,4 +206,8 @@
         font-size: 3.5vw;
         padding: 2vw 6vw;
     }
+
+    .contact-detail p {
+        font-size: medium;
+    }
 }
