@@ -4,6 +4,7 @@ import project3_img from '../assets/Capture3.PNG'
 import project4_img from '../assets/Capturejjjj.PNG'
 import project5_img from '../assets/Capturelllll.PNG'
 import project6_img from '../assets/Screenshot 2024-10-16 020711.png';
+import project7_img from '../assets/123.png';
 
 const mywork_data = [
     {
@@ -41,6 +42,11 @@ const mywork_data = [
         w_name: "Web design",
         link: "https://vercel.live/link/croshehaty.vercel.app?via=project-dashboard-alias-list&p=1&page=/",
         w_img: project6_img
+    },{
+        w_no: 7,
+        w_name: "Web design",
+        link: "https://simplebanklandingpage.netlify.app/",
+        w_img: project7_img
     }
 ]
 
